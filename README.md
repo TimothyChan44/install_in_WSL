@@ -1,6 +1,6 @@
 # install in WSL
 
-## install nvm in WSL-Debian
+## install nvm in WSL-Debian (Failed)
 
 Step 1. Download Bash shell script from https://github.com/nvm-sh/nvm#install--update-script
 ```
@@ -18,3 +18,16 @@ $ command -v nvm
 $ nvm isntall node
 ```
 
+## install nodejs v12 in WSL-Debian
+
+Step 1. 
+```
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+bash nodesource_setup.sh
+```
+
+Step 2 apt
+
+```
+apt install -y nodejs
+```
