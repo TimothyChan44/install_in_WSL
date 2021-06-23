@@ -1,5 +1,20 @@
 # install in WSL
 
+## vscode 
+
+
+
+```
+vim /etc/wsl.conf
+
+[automount]
+enabled = true
+root = /mnt/
+options = "metadata,umask=22,fmask=11"
+mountFsTab = false
+```
+
+
 ## install nvm in WSL-Debian (Failed)
 
 Step 1. Download Bash shell script from https://github.com/nvm-sh/nvm#install--update-script
